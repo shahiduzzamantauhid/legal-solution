@@ -1,0 +1,66 @@
+body{
+    /* font-family: 'EB Garamond', serif; */
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 800;
+    font-size: 72px;
+}
+a{
+    text-decoration: none;
+}
+.w-60{
+    width: 60%;
+}
+.th-banner{
+    background: linear-gradient(360deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url(images/banner.png) no-repeat center center;
+    background-size: cover;
+}
+.f-eb-garamond{
+    font-family: 'EB Garamond', serif; 
+}
+.th-bg-color{
+    background: #B68C5A;
+}
+.pt-col-bg{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+.carousal-bg-grad{
+    background: rgba(17, 17, 17, 0.8);
+}
+.faq-bg{
+    background: #F3F3F3;
+    border-radius: 8px;
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #F3F3F3;
+    box-shadow: none;
+}
+.navbar>.container-fluid{
+    text-align: center;
+}
+.nav-item{
+    padding: 0 10px;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .navbar-brand{
+        display: none;
+    }
+    .nav-item .active{
+        color:#B68C5A !important;
+    }
+    .navbar-collapse ul li{
+        padding:8px;
+        
+    }
+    .navbar-collapse ul li a i{
+        display: none;
+    }
+    .w-60{
+        width: 80%;
+    }
+}
